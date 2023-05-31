@@ -2,8 +2,8 @@ import "./SideNav.css"
 
 const SideNav =() => {
   return (
-    
-      <div class="min-h-screen bg-gray-100">
+  
+      <div class="min-h-screen bg-gray-100 flex justify-end">
         <div class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-white hover:shadow-lg">
         <div class="flex h-screen flex-col justify-between pt-2 pb-6">
         <div>
@@ -16,7 +16,7 @@ const SideNav =() => {
                 <path d="M13 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8Z" class="fill-current text-cyan-200 group-hover:text-cyan-300"></path>
                 <path d="M13 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1Z" class="fill-current group-hover:text-sky-300"></path>
               </svg>
-              <span class="-mr-1 font-medium">Dashboard</span>
+              <span class="-ml-1 font-medium">Dashboard</span>
             </a>
           </li>
           <li class="min-w-max">
@@ -68,7 +68,7 @@ const SideNav =() => {
     </div>
   </div>
 </div>
-   
+
   )
 }
 export default SideNav ;
