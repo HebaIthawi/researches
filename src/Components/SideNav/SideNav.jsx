@@ -3,7 +3,7 @@ import "./SideNav.css"
 const SideNav =() => {
   return (
   //  I used heroicons here just easier , but for future try fontawesome icons 
-      <div class="min-h-screen bg-gray-200 flex justify-end">
+      <div class="min-h-screen bg-gray-100 flex justify-end">
         <div class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-white hover:shadow-lg">
         <div class="flex h-screen flex-col justify-between pt-2 pb-6">
         <div>
