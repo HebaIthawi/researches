@@ -3,6 +3,7 @@
       transition:all .4s ease-in-out;
       /* direction: rtl; */
       /* position: right; */
-
+     /* position: fixed; */
+      height: 100%;
     }
   
